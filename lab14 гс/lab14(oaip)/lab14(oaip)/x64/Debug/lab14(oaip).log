@@ -1,0 +1,34 @@
+﻿Сборка начата 22.05.2024 10:11:02.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab14(oaip).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab14(oaip).tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab14(oaip).cpp"
+         lab14(oaip).cpp
+     1>D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(8,1): warning C4005: INT_MAX: изменение макроопределения
+       C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\limits.h(36,1): message : см. предыдущее определение "INT_MAX"
+     1>D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(22,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(40,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(51,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\x64\Debug\lab14(oaip).exe" /INCREMENTAL /ILK:"x64\Debug\lab14(oaip).ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\x64\Debug\lab14(oaip).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\x64\Debug\lab14(oaip).lib" /MACHINE:X64 "x64\Debug\lab14(oaip).obj"
+         lab14(oaip).vcxproj -> D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\x64\Debug\lab14(oaip).exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\lab14(oaip).tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\lab14(oaip).tlog\lab14(oaip).lastbuildstate".
+     1>Сборка проекта "D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(8,1): warning C4005: INT_MAX: изменение макроопределения
+         D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(22,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(40,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\уник\2 сем\ОАиП\lab14\lab14(oaip)\lab14(oaip)\lab14(oaip).cpp(51,51): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:01.76
