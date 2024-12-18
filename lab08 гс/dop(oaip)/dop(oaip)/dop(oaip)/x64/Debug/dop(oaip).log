@@ -1,0 +1,29 @@
+﻿Сборка начата 09.04.2024 23:43:28.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\dop(oaip)\dop(oaip).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\dop(oaip).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\dop(oaip).tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "dop(oaip).cpp"
+         dop(oaip).cpp
+     1>D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\dop(oaip)\dop(oaip).cpp(236): warning C4715: OutQueue: значение возвращается не при всех путях выполнения
+     1>D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\dop(oaip)\dop(oaip).cpp(260): warning C4715: Shift: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\x64\Debug\dop(oaip).exe" /INCREMENTAL /ILK:"x64\Debug\dop(oaip).ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\x64\Debug\dop(oaip).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\x64\Debug\dop(oaip).lib" /MACHINE:X64 "x64\Debug\dop(oaip).obj"
+         dop(oaip).vcxproj -> D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\x64\Debug\dop(oaip).exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\dop(oaip).tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\dop(oaip).tlog\dop(oaip).lastbuildstate".
+     1>Сборка проекта "D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\dop(oaip)\dop(oaip).vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\dop(oaip)\dop(oaip).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\dop(oaip)\dop(oaip).cpp(236): warning C4715: OutQueue: значение возвращается не при всех путях выполнения
+         D:\уник\2 сем\ОАиП\lab08\dop(oaip)\dop(oaip)\dop(oaip)\dop(oaip).cpp(260): warning C4715: Shift: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.66

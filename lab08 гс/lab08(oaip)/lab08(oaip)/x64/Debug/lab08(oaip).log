@@ -1,0 +1,23 @@
+﻿Сборка начата 09.04.2024 23:22:49.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\ОАиП\lab08\lab08(oaip)\lab08(oaip)\lab08(oaip).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab08(oaip).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab08(oaip).tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab08(oaip).cpp"
+         lab08(oaip).cpp
+     1>C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,1): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+     1>C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>Сборка проекта "D:\уник\2 сем\ОАиП\lab08\lab08(oaip)\lab08(oaip)\lab08(oaip).vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\2 сем\ОАиП\lab08\lab08(oaip)\lab08(oaip)\lab08(oaip).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,1): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.44
