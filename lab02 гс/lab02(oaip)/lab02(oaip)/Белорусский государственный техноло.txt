@@ -1,0 +1,501 @@
+Белорусский государственный технологический университет
+Факультет информационных технологий
+Кафедра программной инженерии
+ 
+ 
+
+
+
+ Лабораторная работа №2
+По дисциплине «Основы алгоритмизации и программирования»
+На тему «Работа с файлами на языке С»
+ 
+ 
+ 
+ 
+ 
+ 
+Выполнил:
+Студент 1 курса 8 группы
+Билый Александр Сергеевич
+Преподаватель: асс. Андронова М.В.
+
+
+
+
+
+
+
+
+
+
+
+
+Минск, 2024
+5. В соответствии со своим вариантом разработать программы для условий, приведенных в таблице ниже, и изучить способы работы с файлами на языке С. 
+Вариант 2 
+
+Задание 1
+
+int var2_z1() {
+	FILE* f1;
+	errno_t err1;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");    // проверка на ошибку при открытии файла, fopen_s должно возвращать 0
+	if (err1 != 0) {
+		perror("Ошибка открытия файла f1.txt");
+		return 1;
+	}
+
+	double num;
+	int numColumns;
+	int numLines = 0;
+	fscanf_s(f1, "%d", &numColumns);  // считывание первого элемента матрицы
+	
+	while (fscanf_s(f1, "%d", &num) != EOF) {   // подсчёт количества строк матрицы в файле
+		if (fgetc(f1) == '\n') {
+			numLines++;
+		}
+	}
+
+	double matrix1[100][100];
+
+	rewind(f1);  // переход указателя на файл в начало файла
+
+	for (int i = 0; i < numLines; i++) {       // считывание элементов матрицы и запись в matrix1
+		for (int j = 0; j < numColumns; j++) {
+			fscanf_s(f1, "%lf", &matrix1[i][j]);
+		}
+	}
+
+	fclose(f1);  // закрытие файла
+
+	FILE* f2;
+	errno_t err2;
+
+	err2 = fopen_s(&f2, "f2.txt", "r");      // проверка на ошибку при открытии файла, fopen_s должно возвращать 0
+	if (err2 != 0) {
+		perror("Ошибка открытия файла f2.txt");
+		return 1;
+	}
+
+	double matrix2[100][100];
+
+	for (int i = 0; i < numLines; i++) {       // считывание элементов матрицы и запись в matrix2
+		for (int j = 0; j < numColumns; j++) {
+			fscanf_s(f2, "%lf", &matrix2[i][j]);
+		}
+	}
+
+	fclose(f2);  // закрытие файла
+
+	double matrix3[100][100];
+
+	for (int i = 0; i < numLines; i++) {       // нахождение матрицы суммы
+		for (int j = 0; j < numColumns; j++) {
+			matrix3[i][j] = matrix1[i][j] + matrix2[i][j];
+		}
+	}
+
+	FILE* f3;
+	errno_t err3;
+
+	err3 = fopen_s(&f3, "f3.txt", "w");    // проверка на ошибку при открытии файла, fopen_s должно возвращать 0
+	if (err3 != 0) {
+		perror("Ошибка открытия файла f3.txt");
+		return 1;
+	}
+
+	for (int i = 0; i < numLines; i++) {        // запись в файл матрицы суммы
+		for (int j = 0; j < numColumns; j++) {
+			fprintf_s(f3, "%.1lf ", matrix3[i][j]);
+		}
+		fprintf_s(f3, "%c", '\n');
+	}
+
+	fclose(f3);  // закрытие файла
+
+	printf("Программа сработала успешно\n");
+
+	return 0;
+}
+
+     
+
+
+
+Задание 2
+int var2_z2() {
+	FILE* f1, * f2;
+	errno_t err1, err2;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");   // проверка на ошибку при открытии файлов
+	if (err1 != 0) {
+		perror("Ошибка при открытии файла f1.txt");
+		return 1;
+	}
+	err2 = fopen_s(&f2, "f2.txt", "w");
+	if (err2 != 0) {
+		perror("Ошибка при открытии файла f2.txt");
+		return 1;
+	}
+
+	int num;
+	int counter = 0;
+
+	while (fscanf_s(f1, "%d", &num) != EOF) {   // проверка на конец файла
+		if ((counter / 5) % 2 == 0) {     // запись первых 5 чисел, 5 чисел пропускается, и т.д.
+			fprintf_s(f2, "%d ", num);
+		}
+		counter++;
+	}
+
+	fclose(f1);   // закрытие файлов
+	fclose(f2);
+
+	printf("Программа сработала успешно\n");
+
+	return 0;
+}
+
+
+
+
+Доп. задания
+Вариант 5
+
+
+Задание 1
+int var5_z1() {
+	FILE* f1, * f2, * f3;
+	errno_t err1, err2, err3;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");    // проверка на ошибку при открытии файлов
+	if (err1 != 0) {
+		perror("Ошибка при открытии файла f1.txt");
+		return 1;
+	}
+	err2 = fopen_s(&f2, "f2.txt", "r");
+	if (err2 != 0) {
+		perror("Ошибка при открытии файла f2.txt");
+		return 1;
+	}
+
+	int numColumns;
+	int check;
+	fscanf_s(f1, "%d", &numColumns);  // запись первых чисел в матрицах в переменные
+	fscanf_s(f2, "%d", &check);
+
+	if (check != numColumns) {      // проверка на совместимость матриц для умножения
+		printf("Матрицы нельзя перемножить");
+		return 1;
+	}
+
+	rewind(f1);  // возврат указателя на файл в начало файла
+	rewind(f2);
+
+	int matrix1[100][100];
+	int matrix2[100][100];
+
+	for (int i = 0; i < numColumns; i++) {    // запись 1 матрицы из файла
+		for (int j = 0; j < numColumns; j++) {
+			fscanf_s(f1, "%d", &matrix1[i][j]);
+		}
+	}
+
+	for (int i = 0; i < numColumns; i++) {    // запись 2 матрицы из файла
+		for (int j = 0; j < numColumns; j++) {
+			fscanf_s(f2, "%d", &matrix2[i][j]);
+		}
+	}
+
+	fclose(f1);  // закрытие файлов
+	fclose(f2);
+
+	int matrix3[100][100];
+	matrix3[0][0] = 0;
+
+	for (int i = 0; i < numColumns; i++) {      // нахождение произведения матриц
+		for (int j = 0; j < numColumns; j++) {
+			matrix3[i][j] = 0;
+			for (int k = 0; k < numColumns; k++) {
+				matrix3[i][j] += matrix1[i][k] * matrix2[k][j];
+			}
+		}
+	}
+
+	err3 = fopen_s(&f3, "f3.txt", "w");     // проверка на ошибку при открытии файлов
+	if (err3 != 0) {
+		perror("Ошибка при открытии файла f1.txt");
+		return 1;
+	}
+
+	for (int i = 0; i < numColumns; i++) {     // запись произведения матриц в третий файл
+		for (int j = 0; j < numColumns; j++) {
+			fprintf_s(f3, "%d ", matrix3[i][j]);
+		}
+		fprintf_s(f3, "%c", '\n');
+	}
+	
+	fclose(f3);  // закрытие 3 файла
+
+	printf("Программа сработала успешно\n");
+
+	return 0;
+}
+
+
+
+	      
+
+
+
+
+Задание 2
+int var5_z2() {
+	FILE* f1, * f2;
+	errno_t err1, err2;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");    // проверка на ошибку открытия файлов
+	if (err1 != 0) {
+		perror("Ошибка открытия файла f1.txt");
+		return 1;
+	}
+	err2 = fopen_s(&f2, "f2.txt", "w");
+	if (err2 != 0) {
+		perror("Ошибка открытия файла f2.txt");
+		return 1;
+	}
+
+	char str[100];
+
+	while (fgets(str, sizeof(str), f1) != NULL) {    // чтение файла построчно
+		if (str[0] == 'a') {
+			fprintf_s(f2, "%s", str);      // запись во 2 файл строку, которая начинается на a
+		}
+	}
+
+	fclose(f1);   // закрытие файла
+	fclose(f2);
+
+	printf("Программа сработала успешно\n");
+
+	return 0;
+}
+		
+
+
+
+
+
+Вариант 9
+
+
+Задание 1
+int var9_z1() {
+	FILE* f1, * f2;
+	errno_t err1, err2;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");    // проверка на ошибку открытия файлов
+	if (err1 != 0) {
+		perror("Ошибка открытия файла f1.txt");
+		return 1;
+	}
+	err2 = fopen_s(&f2, "f2.txt", "w");
+	if (err2 != 0) {
+		perror("Ошибка открытия файла f2.txt");
+		return 1;
+	}
+
+	int unique_numbers[100];
+	int num_unique = 0;
+	int num;
+
+	while (fscanf_s(f1, "%d", &num) != EOF) {   // проверка на конец файла
+		int isDuplicate = 0;
+		for (int i = 0; i < num_unique; i++) {  // цикл, проверяющий число на уникальность
+			if (unique_numbers[i] == num) {
+				isDuplicate = 1;
+				break;
+			}
+		}
+		if (!isDuplicate) {     // запись уникальных чисел в массив
+			unique_numbers[num_unique] = num;
+			num_unique++;
+		}
+	}
+
+	for (int i = 0; i < num_unique; i++) {      // вывод массива в файл 
+		fprintf_s(f2, "%d ", unique_numbers[i]);
+	}
+
+	fclose(f1);  // закрытие файлов 
+	fclose(f2);
+
+	printf("Программа сработала успешно\n");
+	
+	return 0;
+}
+		
+
+
+
+
+Задание 2
+int var9_z2() {
+	FILE* f1, * f2;
+	errno_t err1, err2;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");    // проверка на ошибку открытия файлов
+	if (err1 != 0) {
+		perror("Ошибка открытия файла f1.txt");
+		return 1;
+	}
+	err2 = fopen_s(&f2, "f2.txt", "w");
+	if (err2 != 0) {
+		perror("Ошибка открытия файла f2.txt");
+		return 1;
+	}
+
+	char str[100];
+	int number;
+
+	printf("Введите число:\n");     // ввод числа с клавиатуры
+	scanf_s("%d", &number);
+
+	while (fgets(str, sizeof(str), f1) != NULL) {   // проверка на конец файла
+		if (strlen(str) > number) {       // запись строк в файл, у которых больше символов, чем заданное число
+			fprintf_s(f2, "%s", str);
+		}
+	}
+
+	fclose(f1);  // закрытие файлов
+	fclose(f2);
+
+	printf("Программа сработала успешно\n");
+
+	return 0;
+}
+
+
+
+
+Вариант 12
+
+Задание 1
+int var12_z1() {
+	FILE* f1, * f2;
+	errno_t err1, err2;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");   // проверка на ошибку открытия файлов
+	if (err1 != 0) {
+		perror("Ошибка открытия файла f1.txt");
+		return 1;
+	}
+	err2 = fopen_s(&f2, "f2.txt", "w");
+	if (err2 != 0) {
+		perror("Ошибка открытия файла f2.txt");
+		return 1;
+	}
+
+	int numColumns;
+	fscanf_s(f1, "%d", &numColumns);    // считывание первого элемента матрицы
+	rewind(f1);   // возвращаение указателя на файл в начало файла
+
+	int number;
+	printf("Введите число от 1 до %d:\n", numColumns);  // ввод номера строки с клавиатуры
+	scanf_s("%d", &number);
+
+	if (number < 1 || number > numColumns) {    // проверка на корректность числа, введённого с клавиатуры
+		printf("Вы ввели некорректное число\n");
+		return 1;
+	}
+
+	double matrix[100][100];
+
+	for (int i = 0; i < numColumns; i++) {    // запись матрицы из файла в matrix
+		for (int j = 0; j < numColumns; j++) {
+			fscanf_s(f1, "%lf", &matrix[i][j]);
+		}
+	}
+
+
+	for (int i = 0; i < numColumns; i++) {           // запись указанной строки в файл 
+		fprintf_s(f2, "%.1lf ", matrix[number - 1][i]);
+	}
+
+	fclose(f1);  // закрытие файлов
+	fclose(f2);
+
+	printf("Программа сработала успешно\n");
+
+	return 0;
+}
+
+
+
+
+Задание 2
+int var12_z2() {
+	FILE* f1, * f2, * f3, * f4;
+	errno_t err1, err2, err3, err4;
+
+	err1 = fopen_s(&f1, "f1.txt", "r");  // проверка на ошибку открытия файлов
+	if (err1 != 0) {
+		perror("Ошибка открытия файла f1.txt");
+		return 1;
+	}
+	err2 = fopen_s(&f2, "f2.txt", "r");
+	if (err2 != 0) {
+		perror("Ошибка открытия файла f2.txt");
+		return 1;
+	}
+	err3 = fopen_s(&f3, "f3.txt", "r");
+	if (err3 != 0) {
+		perror("Ошибка открытия файла f3.txt");
+		return 1;
+	}
+	err4 = fopen_s(&f4, "f4.txt", "w");
+	if (err4 != 0) {
+		perror("Ошибка открытия файла f4.txt");
+		return 1;
+	}
+
+	int num;
+	int fileSize = 0;
+	while (fscanf_s(f1, "%d", &num) != EOF) {   // подсчёт количества чисел в файле
+		fileSize++;
+		if (num == '\0') {
+			fileSize--;
+		}
+	}
+
+	rewind(f1);
+
+	for (int i = 0; i < fileSize; i++) {   
+		int num1, num2, num3;
+		fscanf_s(f1, "%d", &num1);    // считывание элементов из файлов, находящихся на одной позиции
+		fscanf_s(f2, "%d", &num2);
+		fscanf_s(f3, "%d", &num3);
+
+		int minNumber = min(num1, num2);   // нахождение минимального числа через библиотечную функцию
+		minNumber = min(minNumber, num3);
+		fprintf_s(f4, "%d ", minNumber);   // запись минимального числа в файл 4
+	}
+
+	fclose(f1);   // закрытие файлов
+	fclose(f2);
+	fclose(f3);
+	fclose(f4);
+
+	printf("Программа успешно выполнена\n");
+
+	return 0;
+}
+
+
+
+  
+
+
+
