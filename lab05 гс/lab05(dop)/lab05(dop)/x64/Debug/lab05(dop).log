@@ -1,0 +1,35 @@
+﻿Сборка начата 19.03.2024 23:59:03.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab05(dop).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab05(dop).tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab05(dop).cpp"
+         lab05(dop).cpp
+     1>D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(660,36): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(660,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Дмитроченко"
+     1>D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(660,53): error C2059: синтаксическая ошибка: константа
+     1>C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,12): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(910,2): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>Сборка проекта "D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(910,2): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+
+       "D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(660,36): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(660,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Дмитроченко"
+         D:\уник\2 сем\ОАиП\lab05\lab05(dop)\lab05(dop)\lab05(dop).cpp(660,53): error C2059: синтаксическая ошибка: константа
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\include\sal.h(2361,12): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+
+    Предупреждений: 1
+    Ошибок: 5
+
+Прошло времени 00:00:00.53

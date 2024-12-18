@@ -1,0 +1,10 @@
+Library 1: 
+Author: StKing
+Title: 1409
+Publisher: MSoMoscow
+Origin: theft
+Year: 2999
+Library section: Mystery
+Availability: 2000$
+
+
