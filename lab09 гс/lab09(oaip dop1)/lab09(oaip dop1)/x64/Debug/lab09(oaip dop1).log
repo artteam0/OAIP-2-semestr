@@ -1,0 +1,503 @@
+﻿Сборка начата 17.04.2024 11:21:59.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\x64\Debug\".
+         Создание каталога "x64\Debug\lab09(oaip dop1).tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\lab09(oaip dop1).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab09(oaip dop1).tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab09(oaip dop1).cpp" List.cpp
+         lab09(oaip dop1).cpp
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(6,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(7,1): error C2062: тип "char" не требуется
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(10,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(11,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2059: синтаксическая ошибка: }
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(15,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,1): error C2065: Element: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,11): error C2065: Prev: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,15): error C2059: синтаксическая ошибка: ;
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Data"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,5): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,22): error C2065: prev: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,28): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,39): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,45): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,56): error C2065: capital: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,65): error C2065: intpopulation: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,80): error C2065: doublearea: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,92): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,103): error C2065: presidentLastName: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,131): error C2065: next: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,5): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,5): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2059: синтаксическая ошибка: }
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(29,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,11): error C2065: Head: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,15): error C2059: синтаксическая ошибка: ;
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(33,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,10): error C2588: ::~Object: недопустимая глобальная переменная деструктор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,9): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,9): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,21): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,32): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,38): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,49): error C2065: capital: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,58): error C2065: intpopulation: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,73): error C2065: doublearea: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,85): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,96): error C2065: presidentLastName: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,20): error C2440: инициализация: невозможно преобразовать "initializer list" в "bool"
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,20): message : Инициализатор содержит слишком много элементов
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(44,30): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,9): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,34): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,25): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,36): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,14): error C2374: Delete: переопределение; множественная инициализация
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(44,14): message : см. объявление "Delete"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,21): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,32): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2059: синтаксическая ошибка: }
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,1): error C2365: Object: переопределение; предыдущим определением было "функция"
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(33,5): message : см. объявление "Object"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Create"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "L1"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,5): warning C4551: в вызове функции отсутствует список аргументов
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,12): error C2065: L1: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,17): error C3861: Create: идентификатор не найден
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(39,13): error C2065: L1: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(43,13): error C2065: L1: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(50,22): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(50,26): error C2065: L1: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(51,17): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(56,54): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(57,52): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(58,56): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(59,52): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(60,56): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(68,23): error C2065: L1: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(78,17): error C2065: L1: необъявленный идентификатор
+         List.cpp
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(6,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(7,1): error C2062: тип "char" не требуется
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(10,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(11,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2059: синтаксическая ошибка: }
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(15,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,1): error C2065: Element: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,11): error C2065: Prev: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,15): error C2059: синтаксическая ошибка: ;
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Data"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,5): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,22): error C2065: prev: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,28): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,39): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,45): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,56): error C2065: capital: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,65): error C2065: intpopulation: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,80): error C2065: doublearea: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,92): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,103): error C2065: presidentLastName: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,131): error C2065: next: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,5): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,5): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2059: синтаксическая ошибка: }
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(29,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,11): error C2065: Head: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,15): error C2059: синтаксическая ошибка: ;
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(33,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,10): error C2588: ::~Object: недопустимая глобальная переменная деструктор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,9): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,9): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,21): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,32): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,38): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,49): error C2065: capital: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,58): error C2065: intpopulation: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,73): error C2065: doublearea: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,85): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,96): error C2065: presidentLastName: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,20): error C2440: инициализация: невозможно преобразовать "initializer list" в "bool"
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,20): message : Инициализатор содержит слишком много элементов
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(44,30): error C2065: e: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,9): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,34): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,25): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,36): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,14): error C2374: Delete: переопределение; множественная инициализация
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(44,14): message : см. объявление "Delete"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,21): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,32): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2059: синтаксическая ошибка: }
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,1): error C2365: Object: переопределение; предыдущим определением было "функция"
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(33,5): message : см. объявление "Object"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Create"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,1): error C2825: Element: должен представлять класс или пространство имен с последующим "::"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,10): error C2510: Element: выражение слева от "::" должно быть классом, структурой или объединением
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,25): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,10): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,27): error C2065: prev: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,33): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,44): error C2065: name: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,50): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,61): error C2065: capital: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,70): error C2065: intpopulation: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,85): error C2065: doublearea: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,97): error C2065: constchar: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,108): error C2065: presidentLastName: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,136): error C2065: next: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,5): error C2059: синтаксическая ошибка: :
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,12): error C2065: prev: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,19): error C2040: Next: "int" отличается по уровням косвенного обращения от "int *"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,24): error C2065: next: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,30): error C2059: синтаксическая ошибка: {
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,30): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,30): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,1): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,10): error C2825: Element: должен представлять класс или пространство имен с последующим "::"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,19): error C2510: Element: выражение слева от "::" должно быть классом, структурой или объединением
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C2059: синтаксическая ошибка: {
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,1): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,10): error C2825: Element: должен представлять класс или пространство имен с последующим "::"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,19): error C2510: Element: выражение слева от "::" должно быть классом, структурой или объединением
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C2059: синтаксическая ошибка: {
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(24,1): error C2653: Object: не является именем класса или пространства имен
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(24,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(25,5): error C2065: Head: необъявленный идентификатор
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(26,1): warning C4508: Object: функция должна возвращать значение; предполагается возвращаемый тип "void"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(29,1): error C2653: Object: не является именем класса или пространства имен
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(29,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(31,1): warning C4508: {dtor}: функция должна возвращать значение; предполагается возвращаемый тип "void"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,1): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,10): error C2653: Object: не является именем класса или пространства имен
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C2059: синтаксическая ошибка: {
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,1): error C2086: int Element: переопределение
+       D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,1): message : см. объявление "Element"
+     1>D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,1): fatal  error C1003: число ошибок превышает 100; остановка компиляции
+         Создание кода...
+     1>Сборка проекта "D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,5): warning C4551: в вызове функции отсутствует список аргументов
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(26,1): warning C4508: Object: функция должна возвращать значение; предполагается возвращаемый тип "void"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(31,1): warning C4508: {dtor}: функция должна возвращать значение; предполагается возвращаемый тип "void"
+
+
+       "D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(6,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(7,1): error C2062: тип "char" не требуется
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(10,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(11,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2059: синтаксическая ошибка: }
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(15,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,1): error C2065: Element: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,11): error C2065: Prev: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,15): error C2059: синтаксическая ошибка: ;
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Data"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,5): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,22): error C2065: prev: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,28): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,39): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,45): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,56): error C2065: capital: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,65): error C2065: intpopulation: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,80): error C2065: doublearea: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,92): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,103): error C2065: presidentLastName: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,131): error C2065: next: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,5): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,5): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2059: синтаксическая ошибка: }
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(29,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,11): error C2065: Head: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,15): error C2059: синтаксическая ошибка: ;
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(33,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,10): error C2588: ::~Object: недопустимая глобальная переменная деструктор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,9): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,9): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,21): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,32): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,38): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,49): error C2065: capital: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,58): error C2065: intpopulation: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,73): error C2065: doublearea: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,85): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,96): error C2065: presidentLastName: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,20): error C2440: инициализация: невозможно преобразовать "initializer list" в "bool"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(44,30): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,9): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,34): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,25): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,36): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,14): error C2374: Delete: переопределение; множественная инициализация
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,21): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,32): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2059: синтаксическая ошибка: }
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,1): error C2365: Object: переопределение; предыдущим определением было "функция"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Create"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "L1"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,12): error C2065: L1: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(9,17): error C3861: Create: идентификатор не найден
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(39,13): error C2065: L1: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(43,13): error C2065: L1: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(50,22): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(50,26): error C2065: L1: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(51,17): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(56,54): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(57,52): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(58,56): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(59,52): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(60,56): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(68,23): error C2065: L1: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\lab09(oaip dop1).cpp(78,17): error C2065: L1: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(6,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(7,1): error C2062: тип "char" не требуется
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(10,11): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(11,26): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2059: синтаксическая ошибка: }
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(12,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(15,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,1): error C2065: Element: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,11): error C2065: Prev: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(16,15): error C2059: синтаксическая ошибка: ;
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(17,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(18,9): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Data"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,20): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,5): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,22): error C2065: prev: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,28): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,39): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,45): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,56): error C2065: capital: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,65): error C2065: intpopulation: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,80): error C2065: doublearea: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,92): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,103): error C2065: presidentLastName: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(21,131): error C2065: next: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,5): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(24,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,12): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,5): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(25,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2059: синтаксическая ошибка: }
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(26,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(29,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,11): error C2065: Head: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(30,15): error C2059: синтаксическая ошибка: ;
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(33,13): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,10): error C2588: ::~Object: недопустимая глобальная переменная деструктор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(36,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,9): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(39,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,9): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(40,27): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,21): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,32): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,38): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,49): error C2065: capital: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,58): error C2065: intpopulation: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,73): error C2065: doublearea: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,85): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,96): error C2065: presidentLastName: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(43,20): error C2440: инициализация: невозможно преобразовать "initializer list" в "bool"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(44,30): error C2065: e: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,9): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,34): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,25): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(45,36): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,14): error C2374: Delete: переопределение; множественная инициализация
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,21): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(46,32): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2059: синтаксическая ошибка: }
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(51,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,14): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,1): error C2365: Object: переопределение; предыдущим определением было "функция"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.h(54,8): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Create"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,1): error C2825: Element: должен представлять класс или пространство имен с последующим "::"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,10): error C2510: Element: выражение слева от "::" должно быть классом, структурой или объединением
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,25): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,10): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,27): error C2065: prev: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,33): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,44): error C2065: name: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,50): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,61): error C2065: capital: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,70): error C2065: intpopulation: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,85): error C2065: doublearea: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,97): error C2065: constchar: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,108): error C2065: presidentLastName: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(4,136): error C2065: next: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,5): error C2059: синтаксическая ошибка: :
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,12): error C2065: prev: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,28): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,19): error C2040: Next: "int" отличается по уровням косвенного обращения от "int *"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,24): error C2065: next: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,30): error C2059: синтаксическая ошибка: {
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,30): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(5,30): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,1): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,10): error C2825: Element: должен представлять класс или пространство имен с последующим "::"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,19): error C2510: Element: выражение слева от "::" должно быть классом, структурой или объединением
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C2059: синтаксическая ошибка: {
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(14,29): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,1): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,10): error C2825: Element: должен представлять класс или пространство имен с последующим "::"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,19): error C2510: Element: выражение слева от "::" должно быть классом, структурой или объединением
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C2059: синтаксическая ошибка: {
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(19,29): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(24,1): error C2653: Object: не является именем класса или пространства имен
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(24,18): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(25,5): error C2065: Head: необъявленный идентификатор
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(29,1): error C2653: Object: не является именем класса или пространства имен
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(29,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,1): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,10): error C2653: Object: не является именем класса или пространства имен
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C2059: синтаксическая ошибка: {
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(34,29): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,8): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,1): error C2086: int Element: переопределение
+         D:\уник\2 сем\ОАиП\lab09\lab09(oaip dop1)\lab09(oaip dop1)\List.cpp(39,1): fatal  error C1003: число ошибок превышает 100; остановка компиляции
+
+    Предупреждений: 3
+    Ошибок: 223
+
+Прошло времени 00:00:01.16

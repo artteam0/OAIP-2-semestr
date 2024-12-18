@@ -1,0 +1,21 @@
+﻿Сборка начата 17.04.2024 11:06:26.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\ОАиП\lab09\lab09(oaip dd)\lab09(oaip dd)\lab09(oaip dd).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab09(oaip dd).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab09(oaip dd).tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab09(oaip dd).cpp"
+         lab09(oaip dd).cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\уник\2 сем\ОАиП\lab09\lab09(oaip dd)\x64\Debug\lab09(oaip dd).exe" /INCREMENTAL /ILK:"x64\Debug\lab09(oaip dd).ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\уник\2 сем\ОАиП\lab09\lab09(oaip dd)\x64\Debug\lab09(oaip dd).pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\уник\2 сем\ОАиП\lab09\lab09(oaip dd)\x64\Debug\lab09(oaip dd).lib" /MACHINE:X64 "x64\Debug\lab09(oaip dd).obj"
+         lab09(oaip dd).vcxproj -> D:\уник\2 сем\ОАиП\lab09\lab09(oaip dd)\x64\Debug\lab09(oaip dd).exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\lab09(oaip dd).tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\lab09(oaip dd).tlog\lab09(oaip dd).lastbuildstate".
+     1>Сборка проекта "D:\уник\2 сем\ОАиП\lab09\lab09(oaip dd)\lab09(oaip dd)\lab09(oaip dd).vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.06
