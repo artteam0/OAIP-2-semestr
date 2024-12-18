@@ -1,0 +1,22 @@
+﻿Сборка начата 27.02.2024 18:25:41.
+Уровень детализации журнала: Normal.     1>Проект "D:\уник\2 сем\ОАиП\lab03\lab03(oaip)\lab03(oaip)\lab03(oaip).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab03(oaip).tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab03(oaip).tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt "lab03(oaip).cpp"
+         lab03(oaip).cpp
+     1>D:\уник\2 сем\ОАиП\lab03\lab03(oaip)\lab03(oaip)\lab03(oaip).cpp(61,5): error C2084: функция "int main(void)" уже имеет текст реализации
+       D:\уник\2 сем\ОАиП\lab03\lab03(oaip)\lab03(oaip)\lab03(oaip).cpp(6,5): message : см. предыдущее определение "main"
+     1>Сборка проекта "D:\уник\2 сем\ОАиП\lab03\lab03(oaip)\lab03(oaip)\lab03(oaip).vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\уник\2 сем\ОАиП\lab03\lab03(oaip)\lab03(oaip)\lab03(oaip).vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\уник\2 сем\ОАиП\lab03\lab03(oaip)\lab03(oaip)\lab03(oaip).cpp(61,5): error C2084: функция "int main(void)" уже имеет текст реализации
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.78
